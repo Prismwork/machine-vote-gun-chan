@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "machine_vote_gun_chan",
+  "version": "${version}",
+
+  "name": "Machine-Vote-Gun-Chan!",
+  "description": "Throw (and apply) proposals to your enemies (or friends idk)!",
+  "authors": [
+    "Flamarine the Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/machine_vote_gun_chan/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.prismwork.a_or_b.MachineVoteGunChan"
+    ],
+    "client": [
+      "io.github.prismwork.a_or_b.MachineVoteGunChanClient"
+    ]
+  },
+  "mixins": [
+    "0xe0e1ccull.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric-api": "*",
+    "minecraft": "1.20-alpha.23.13.ab",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

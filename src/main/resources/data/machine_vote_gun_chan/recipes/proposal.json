@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:writable_book"
+    },
+    "I": {
+      "item": "minecraft:paper"
+    },
+    "X": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "I#I",
+    "#X#",
+    "I#I"
+  ],
+  "result": {
+    "item": "machine_vote_gun_chan:proposal"
+  },
+  "show_notification": true
+}

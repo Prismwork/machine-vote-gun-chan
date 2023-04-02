@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.prismwork.a_or_b.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PlayerSetRuleAccessor",
+    "RulesMixin",
+    "ServerVoteStorageAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

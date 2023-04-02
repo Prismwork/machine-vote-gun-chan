@@ -1,0 +1,6 @@
+{
+  "item.machine_vote_gun_chan.proposal": "Proposal",
+  "item.proposal.tooltip.empty": "No proposal recorded",
+  "item.proposal.tooltip.info": "Proposal: ",
+  "rule.machine_vote_gun_chan.proposal_for_more_proposals": "Have at most %s more proposals"
+}
